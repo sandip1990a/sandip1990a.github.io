@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional legal services provided by Indrayani Legal and Finance Services">
+    <title>Indrayani Legal and Finance Services</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffe7e0; /* Light shade of orange */
+            line-height: 1.6;
+            color: #ff6f00;
+            padding: 20px;
+        }
+        header {
+            background-color: #f5b79a; /* Lighter shade of orange */
+            color: #000; /* Change text color to black */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        header h2 {
+            font-size: 1rem;
+            color: #000; /* Change text color to black */
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1rem;
+            color: #000;
+        }
+        header a {
+            color: #ff6f00; /* Make the link color match the main text color */
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        section {
+            text-align: left;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #fb8c00;
+            margin-bottom: 20px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        .service-item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 1rem;
+            color: #000; /* Change text color to black */
+        }
+        .services-grid.row-2 {
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 20px; /* Gap between rows */
+        }
+        footer {
+            background-color: #f5b79a; /* Lighter shade of orange */
+            color: #000; /* Change text color to black */
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-details {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            color: #000; /* Change text color to black */
+        }
+        .contact-details h2 {
+            font-size: 1.2rem;
+            color: #fb8c00;
+            margin-bottom: 15px;
+        }
+        .contact-details p {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            header h2 {
+                font-size: 0.9rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .services-grid.row-2 {
+                grid-template-columns: 1fr;
+            }
+            .contact-details h2 {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.2rem;
+            }
+            header h2 {
+                font-size: 0.8rem;
+            }
+            header p {
+                font-size: 0.8rem;
+            }
+            h2 {
+                font-size: 1rem;
+            }
+            .service-item {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>इंद्रायणी लिगल आणि फायनान्स सर्व्हिसेस (आळंदी)</h1>
+        <h2>Advocate Sandip Akhade (LLB, LLM)</h2>
+        <p><strong>Phone:</strong> <a href="tel:9370286294">9370286294</a></p>
+    </header>
+
+    <!-- Services Section -->
+    <section>
+        <h2>Services Provided</h2>
+        <div class="services-grid">
+            <div class="service-item">खरेदी विक्री (दस्त नोंदणी)</div>
+            <div class="service-item">फौजदारी वाद</div>
+            <div class="service-item">दीवानी वाद</div>
+            <div class="service-item">कौटुंबिक वाद</div>
+        </div>
+        <div class="services-grid row-2">
+            <div class="service-item">ग्राहक संरक्षण</div>
+            <div class="service-item">कायदेशीर सल्ला व मार्गदर्शन</div>
+            <div class="service-item">महसुली वाद</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-details">
+        <h2>Contact Details</h2>
+        <p><strong>Phone:</strong> 9370286294/7798817878</p>
+        <p><strong>Email:</strong> akhadesandip90@gmail.com</p>
+        <p><strong>Address:</strong> Alandi, Taluka - Khed, Dist - Pune</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Indrayani Legal and Finance Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
